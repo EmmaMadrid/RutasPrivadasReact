@@ -9,10 +9,12 @@ const HomePage = () => {
   /* const imageUrl3 = 'https://i.ibb.co/W3VHJsk/Flyer-Clases-Particulares-Llamativo-Naranja-2.png' */
   return (
     <div className="container d-flex flex-column justify-content-center align-items-center vh-50 mt-5">
-      <div className='card mb-2'>
-        <h3 className='text-center'>Paga tu 👕 aqui!</h3>
-        <Link to="/Pago" className='btn btn-success'>Pagar</Link>
-      </div>
+      <Link to="/info" className="btn btn-primary">Informacion</Link>
+      
+      <Link to="/imagenes" className="btn btn-primary">Imagenes</Link>
+
+      <Link to="/contacto" className="btn btn-primary">Contacto</Link>
+      
       <div id="carouselExample" className="carousel slide mb-4" data-bs-ride="carousel">
         <div className="carousel-inner">
           <div className="carousel-item active">
